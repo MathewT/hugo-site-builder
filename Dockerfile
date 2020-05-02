@@ -8,7 +8,7 @@ RUN apk add --no-cache \
     rsync \
     curl
 
-ENV VERSION 0.68.3
+ENV VERSION 0.69.2
 RUN mkdir -p /usr/local/src \
     && cd /usr/local/src \
     && curl -L https://github.com/gohugoio/hugo/releases/download/v${VERSION}/hugo_${VERSION}_linux-64bit.tar.gz | tar -xz \
